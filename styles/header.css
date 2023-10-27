@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 8%;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style-type: none;
+
+}
+li{
+    padding-left: 20px;
+    list-style: none;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 2.5rem;
+    flex-wrap: wrap;
+}
+header{
+    height: 205h;
+    background: linear-gradient(rgb(0,0,0,0.9),rgb(0,0,0,0.6));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+}
+.logo h1{
+    font-size: 3.2rem;
+    margin: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
