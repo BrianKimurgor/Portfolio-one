@@ -1,9 +1,9 @@
-*{
+* {
 
     box-sizing: border-box;
 }
-.section-3
-{
+
+.section-3 {
     display: flex;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -13,7 +13,8 @@
     flex-wrap: wrap;
     flex-flow: 0 1 auto;
 }
-.section-1{
+
+.section-1 {
     display: flex;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -22,7 +23,8 @@
     flex-wrap: wrap;
     flex-flow: 0 1 auto;
 }
-.section-2{
+
+.section-2 {
     display: flex;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -35,13 +37,14 @@
 }
 
 /* buttons */
-.buttons{
+.buttons {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:  10px 20px;
+    padding: 10px 20px;
 }
-.buttons button{
+
+.buttons button {
     margin: 4px 2px;
     padding: 10px 20px;
     border: none;
@@ -53,11 +56,13 @@
     border-radius: 12px;
 
 }
-h1{
+
+h1 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .text {
     padding: 10px;
     display: flex;
@@ -66,12 +71,14 @@ h1{
     justify-content: center;
     width: 50%;
     height: auto;
-    height:500px
+    height: 500px
 }
-.text p{
+
+.text p {
     font-size: 60px;
 }
-.image{
+
+.image {
     padding: 10px;
     display: flex;
     align-items: center;
@@ -86,43 +93,52 @@ h1{
     max-width: 100%;
     max-height: 100%;
 }
-.about-me{
+
+.about-me {
     padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     width: 50%;
     height: auto;
-    height:500px
+    height: 500px
 }
-.about-me p{
+
+.about-me p {
     font-size: 20px;
 }
-.about-me h2{
+
+.about-me h2 {
     text-align: center;
     font-size: 60px;
 }
-.imagess{
+
+.imagess {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
 }
-.alx, .app {
-        width: 100px;
-        height: 100px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        border: 1px solid #DDDDDD;
-        margin-top: 20px;}
-.alx{
+
+.alx,
+.app {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid #DDDDDD;
+    margin-top: 20px;
+}
+
+.alx {
     content: url('../images/download.png');
     background-repeat: no-repeat;
     margin: 10px;
     background-size: contain;
 }
-.app{
+
+.app {
     content: url('../images/appacademy_logo.png');
     background-repeat: no-repeat;
     margin: 10px;
@@ -130,29 +146,38 @@ h1{
     width: 250px;
     background-size: contain;
 }
-.skills{
+
+.skills {
     padding: 10px;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    justify-content:flex-start;
+    justify-content: flex-start;
     width: 50%;
     height: auto;
-    height:500px
+    height: 500px
 }
+
 .container {
-  width: 100%; /* Full width */
-  background-color: #ddd; /* Grey background */
-  height: 30px;
+    width: 100%;
+    /* Full width */
+    background-color: #ddd;
+    /* Grey background */
+    height: 30px;
 }
 
 .skills {
-  text-align: right; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
-  color: black; /* White text color */
+    text-align: right;
+    /* Right-align text */
+    padding-top: 10px;
+    /* Add top padding */
+    padding-bottom: 10px;
+    /* Add bottom padding */
+    color: black;
+    /* White text color */
 }
-.skills h2{
+
+.skills h2 {
     text-align: center;
     font-size: 60px;
 }
@@ -165,13 +190,18 @@ h1{
     align-items: center;
 
 
-} /* Green */
-.css {width: 80%;
+}
+
+/* Green */
+.css {
+    width: 80%;
     background-color: #2196F3;
     height: 30px;
     display: flex;
     align-items: center;
-} /* Blue */
+}
+
+/* Blue */
 .js {
     width: 65%;
     background-color: #f44336;
@@ -179,7 +209,9 @@ h1{
     display: flex;
     align-items: center;
 
-} /* Red */
+}
+
+/* Red */
 .php {
     width: 60%;
     background-color: #808080;
@@ -187,30 +219,86 @@ h1{
     display: flex;
     align-items: center;
 
-} /* Dark Grey */
+}
+
+/* Dark Grey */
 /* form */
- fieldset {
-      border: none;
-    }
-    label {
-      display: block;
-      margin-bottom: 10px;
-    }
-    input[type="text"],
-    textarea {
-      width: 300px;
-      padding: 5px;
-      margin-bottom: 10px;
-    }
-    button {
-      padding: 10px 20px;
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-    .section-11{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+fieldset {
+    border: none;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea {
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.section-11 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.website-links {
+    display: flex;
+    height: 300px;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.website-links ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80%;
+}
+
+.website-links h1 {
+    height: 20%;
+}
+
+.website-links ul li a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+img {
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
+
+/* about section */
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-item {
+    flex-basis: 33.33%;
+    padding: 10px;
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
